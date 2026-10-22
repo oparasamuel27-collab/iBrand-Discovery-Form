@@ -1,0 +1,288 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17274f">
+  <title>Prospect Discovery Form | iBrand Africa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="page cover" aria-label="Prospect Discovery Form cover">
+      <img class="brand-logo" src="img/Ibrand Logo .png" alt="iBrand Africa">
+      <h1 class="cover-title"><span>Prospect</span><span>Discovery Form</span></h1>
+    </section>
+
+    <form id="prospect-form" novalidate>
+      <section class="page" aria-label="Business information and understanding the business">
+        <div class="form-banner">
+          <img src="img/iBrand asset02.png" alt="">
+          <h2><span>PROSPECT</span><span>DISCOVERY FORM</span></h2>
+        </div>
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">A</span><h2 class="title">Business Information</h2></header>
+          <div class="field-grid">
+            <div class="line-field wide"><label for="business-name">Business Name:</label><input id="business-name" name="businessName" autocomplete="organization" required></div>
+            <div class="line-field wide"><label for="industry">Industry:</label><input id="industry" name="industry"></div>
+            <div class="line-field"><label for="contact-person">Contact Person:</label><input id="contact-person" name="contactPerson" autocomplete="name" required></div>
+            <div class="line-field"><label for="position">Position/Role:</label><input id="position" name="position"></div>
+            <div class="line-field wide"><label for="phone">Phone:</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+            <div class="line-field wide"><label for="email">Email:</label><input id="email" name="email" type="email" autocomplete="email"></div>
+            <div class="line-field wide"><label for="location">Location:</label><input id="location" name="location" autocomplete="address-level2"></div>
+            <div class="line-field wide"><label for="website">Website:</label><input id="website" name="website" type="url"></div>
+            <div class="line-field wide"><label for="social-handles">Social Media Handles:</label><input id="social-handles" name="socialMediaHandles"></div>
+            <div class="line-field wide"><label for="years">Years in Business:</label><input id="years" name="yearsInBusiness"></div>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">B</span><h2 class="title">Understanding the Business</h2></header>
+          <div class="question"><label class="question-title" for="products">1. What are your main products/services?</label><div class="answer-lines"><textarea id="products" name="productsServices" rows="2"></textarea></div></div>
+          <div class="question"><label class="question-title" for="target-customer">2. Who is your primary target customer?</label><div class="answer-lines"><textarea id="target-customer" name="targetCustomer" rows="2"></textarea></div></div>
+          <div class="question"><label class="question-title" for="difference">3. What makes your business different from competitors?</label><div class="answer-lines"><textarea id="difference" name="businessDifference" rows="2"></textarea></div></div>
+          <fieldset class="question">
+            <legend>4. What are your main business goals for the next 6–12 months?</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Increase sales">Increase sales</label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Launch a new product/service">Launch a new product/service</label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Increase brand awareness">Increase brand awareness</label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Improve online presence">Improve online presence</label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Attract new customers">Attract new customers</label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Other">Other: <input class="other-line" name="businessGoalsOther" aria-label="Other business goal"></label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Improve customer retention">Improve customer retention</label>
+              <label class="choice"><input type="checkbox" name="businessGoals" value="Expand to new markets">Expand to new markets</label>
+            </div>
+          </fieldset>
+        </section>
+      </section>
+
+      <section class="page" aria-label="Brand and marketing health check">
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">C</span><h2 class="title">Brand &amp; Marketing Health Check</h2></header>
+          <p class="question-title">Where do you currently have challenges?</p>
+          <div class="challenge-grid">
+            <fieldset class="challenge-group">
+              <legend>Branding</legend>
+              <div class="choice-list">
+                <label class="choice"><input type="checkbox" name="challenges" value="No clear brand identity">No clear brand identity</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Outdated logo/visual identity">Outdated logo/visual identity</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Inconsistent branding">Inconsistent branding</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Brand doesn't reflect the quality of the business">Brand doesn’t reflect the quality of the business</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Unclear brand positioning">Unclear brand positioning</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need rebranding">Need rebranding</label>
+              </div>
+            </fieldset>
+            <fieldset class="challenge-group">
+              <legend>Social Media</legend>
+              <div class="choice-list">
+                <label class="choice"><input type="checkbox" name="challenges" value="Inconsistent posting">Inconsistent posting</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Low engagement">Low engagement</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Poor-quality content">Poor-quality content</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Low follower growth">Low follower growth</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="No clear content strategy">No clear content strategy</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Social media isn't generating enquiries">Social media isn’t generating enquiries</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Pages need better management">Pages need better management</label>
+              </div>
+            </fieldset>
+            <fieldset class="challenge-group">
+              <legend>Content</legend>
+              <div class="choice-list">
+                <label class="choice"><input type="checkbox" name="challenges" value="We struggle to create content">We struggle to create content</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="We don't have enough visual content">We don’t have enough visual content</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need professional photography">Need professional photography</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need video content">Need video content</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need Reels/TikTok content">Need Reels/TikTok content</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need promotional content">Need promotional content</label>
+              </div>
+            </fieldset>
+            <fieldset class="challenge-group">
+              <legend>Marketing</legend>
+              <div class="choice-list">
+                <label class="choice"><input type="checkbox" name="challenges" value="Low brand awareness">Low brand awareness</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Not generating enough leads">Not generating enough leads</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Low sales">Low sales</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Ads aren't performing">Ads aren’t performing</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="No clear marketing strategy">No clear marketing strategy</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Difficulty reaching target customers">Difficulty reaching target customers</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need campaign support">Need campaign support</label>
+              </div>
+            </fieldset>
+            <fieldset class="challenge-group">
+              <legend>Website / Digital</legend>
+              <div class="choice-list">
+                <label class="choice"><input type="checkbox" name="challenges" value="No website">No website</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Outdated website">Outdated website</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Poor website design">Poor website design</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Poor user experience">Poor user experience</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Website isn't mobile-friendly">Website isn’t mobile-friendly</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Website isn't generating enquiries">Website isn’t generating enquiries</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need a landing page">Need a landing page</label>
+                <label class="choice"><input type="checkbox" name="challenges" value="Need website maintenance">Need website maintenance</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="other-challenges"><label for="other-challenges">Other Challenges</label><textarea id="other-challenges" name="otherChallenges" rows="3"></textarea></div>
+        </section>
+      </section>
+
+      <section class="page" aria-label="Current marketing, support needs and priority">
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">D</span><h2 class="title">What Are You Currently Doing?</h2></header>
+          <fieldset class="split-question">
+            <legend class="question-title">Which marketing activities are you currently using?</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Social Media">Social Media</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Content Marketing">Content Marketing</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Facebook/Instagram Ads">Facebook/Instagram Ads</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Traditional Advertising">Traditional Advertising</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Google Ads">Google Ads</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="None">None</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Influencer Marketing">Influencer Marketing</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Other">Other: <input class="other-line" name="currentActivitiesOther" aria-label="Other marketing activity"></label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Email Marketing">Email Marketing</label>
+              <label class="choice"><input type="checkbox" name="currentActivities" value="Events/Activations">Events/Activations</label>
+            </div>
+          </fieldset>
+          <fieldset class="split-question">
+            <legend class="question-title">Who currently handles your marketing?</legend>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="marketingHandler" value="Internal team">Internal team</label>
+              <label class="choice"><input type="checkbox" name="marketingHandler" value="Freelancer">Freelancer</label>
+              <label class="choice"><input type="checkbox" name="marketingHandler" value="Agency">Agency</label>
+              <label class="choice"><input type="checkbox" name="marketingHandler" value="Business owner/management">Business owner/management</label>
+              <label class="choice"><input type="checkbox" name="marketingHandler" value="Email Marketing">Email Marketing</label>
+              <label class="choice"><input type="checkbox" name="marketingHandler" value="No one currently">No one currently</label>
+            </div>
+          </fieldset>
+        </section>
+
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">E</span><h2 class="title">What Do You Need Help With?</h2></header>
+          <fieldset>
+            <legend class="question-title">Based on your current challenges, which areas would you like support with?</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Brand Strategy & Identity">Brand Strategy &amp; Identity</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Website Redesign">Website Redesign</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Social Media Management">Social Media Management</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Marketing Strategy">Marketing Strategy</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Content Creation">Content Creation</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Campaign Management">Campaign Management</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Video Production & Editing">Video Production &amp; Editing</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Graphic Design">Graphic Design</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Digital Marketing">Digital Marketing</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Business Technology Solutions">Business Technology Solutions</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Paid Advertising">Paid Advertising</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="BUUKUS FrontDesk / PMS">BUUKUS FrontDesk / PMS</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Website Development">Website Development</label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="Other">Other: <input class="other-line" name="supportNeedsOther" aria-label="Other area for support"></label>
+              <label class="choice"><input type="checkbox" name="supportNeeds" value="UI/UX Design">UI/UX Design</label>
+            </div>
+          </fieldset>
+        </section>
+
+        <section class="form-section priority-section">
+          <header class="section-heading"><span class="letter">F</span><h2 class="title">Priority</h2></header>
+          <label class="question-title" for="biggest-challenge">What is the biggest challenge your business needs to solve right now?</label>
+          <div class="answer-lines multi"><textarea id="biggest-challenge" name="biggestChallenge" rows="1"></textarea></div>
+        </section>
+      </section>
+
+      <section class="page" aria-label="Priority outcome and budget and decision-making">
+        <section class="form-section">
+          <fieldset class="question">
+            <legend>If this challenge were solved, what outcome would you most want?</legend>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="More customers">More customers</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="More enquiries">More enquiries</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="More sales">More sales</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="Better brand perception">Better brand perception</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="Stronger online presence">Stronger online presence</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="Better customer experience">Better customer experience</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="Better business operations">Better business operations</label>
+              <label class="choice"><input type="checkbox" name="desiredOutcome" value="Other">Other: <input class="other-line" name="desiredOutcomeOther" aria-label="Other desired outcome"></label>
+            </div>
+          </fieldset>
+          <fieldset class="question">
+            <legend>How soon are you looking to address this?</legend>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="timeframe" value="Immediately">Immediately</label>
+              <label class="choice"><input type="checkbox" name="timeframe" value="Within 1 month">Within 1 month</label>
+              <label class="choice"><input type="checkbox" name="timeframe" value="Within 3 months">Within 3 months</label>
+              <label class="choice"><input type="checkbox" name="timeframe" value="Within 6 months">Within 6 months</label>
+              <label class="choice"><input type="checkbox" name="timeframe" value="Just exploring options">Just exploring options</label>
+            </div>
+          </fieldset>
+        </section>
+
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">G</span><h2 class="title">Budget &amp; Decision-Making</h2></header>
+          <fieldset class="question">
+            <legend>Have you previously invested in branding/marketing/digital services?</legend>
+            <div class="choice-list">
+              <label class="choice"><input type="checkbox" name="previousInvestment" value="Yes">Yes</label>
+              <label class="choice"><input type="checkbox" name="previousInvestment" value="No">No</label>
+            </div>
+          </fieldset>
+          <fieldset class="question">
+            <legend>Estimated monthly/project budget:</legend>
+            <div class="choice-grid budget-grid">
+              <label class="choice"><input type="checkbox" name="budget" value="₦100k–₦250k">₦100k–₦250k</label>
+              <label class="choice"><input type="checkbox" name="budget" value="₦500k–₦1m">₦500k–₦1m</label>
+              <label class="choice"><input type="checkbox" name="budget" value="Not yet determined">Not yet determined</label>
+              <label class="choice"><input type="checkbox" name="budget" value="₦250k–₦500k">₦250k–₦500k</label>
+              <label class="choice"><input type="checkbox" name="budget" value="₦1m+">₦1m+</label>
+            </div>
+          </fieldset>
+          <div class="question"><label class="question-title" for="decision-makers">Who is involved in making the final decision?</label><div class="answer-lines"><textarea id="decision-makers" name="decisionMakers" rows="2"></textarea></div></div>
+          <div class="question"><label class="question-title" for="follow-up-consultation">When would you be available for a follow-up consultation?</label><div class="answer-lines"><textarea id="follow-up-consultation" name="followUpAvailability" rows="2"></textarea></div></div>
+        </section>
+      </section>
+
+      <section class="page" aria-label="iBrand Africa internal use">
+        <section class="form-section">
+          <header class="section-heading"><span class="letter">H</span><h2 class="title">iBrand Africa — Internal Use</h2></header>
+          <p class="internal-note">This section should not necessarily be shown to the prospect</p>
+          <h3 class="assessment-title">Prospect Assessment</h3>
+          <div class="assessment-fields">
+            <div class="line-field"><label for="primary-need">Primary Need:</label><input id="primary-need" name="primaryNeed"></div>
+            <div class="line-field"><label for="secondary-need">Secondary Need:</label><input id="secondary-need" name="secondaryNeed"></div>
+            <div class="line-field"><label for="recommended-service">Recommended Service:</label><input id="recommended-service" name="recommendedService"></div>
+            <div class="line-field"><label for="potential-upsell">Potential Upsell:</label><input id="potential-upsell" name="potentialUpsell"></div>
+            <div class="line-field"><label for="deal-value">Estimated Deal Value: ₦</label><input id="deal-value" name="estimatedDealValue" inputmode="decimal"></div>
+          </div>
+          <fieldset class="question">
+            <legend class="assessment-title">Lead Status:</legend>
+            <div class="choice-grid status-grid">
+              <label class="choice"><input type="checkbox" name="leadStatus" value="New Prospect">New Prospect</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Negotiation">Negotiation</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Contacted">Contacted</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Won">Won</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Qualified">Qualified</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Lost">Lost</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Meeting Scheduled">Meeting Scheduled</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Follow-up">Follow-up</label>
+              <label class="choice"><input type="checkbox" name="leadStatus" value="Proposal Required">Proposal Required</label>
+            </div>
+          </fieldset>
+          <div class="assessment-fields">
+            <div class="line-field"><label for="next-action">Next Action:</label><input id="next-action" name="nextAction"></div>
+            <div class="line-field"><label for="follow-up-date">Follow-up Date:</label><input id="follow-up-date" name="followUpDate" type="date"></div>
+            <div class="line-field"><label for="assigned-bd">Assigned BD:</label><input id="assigned-bd" name="assignedBD"></div>
+          </div>
+        </section>
+      </section>
+      <div class="form-actions">
+        <button type="submit">Submit Form</button>
+        <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+
+    <section class="page closing" aria-label="iBrand Africa closing page">
+      <img class="brand-logo" src="img/Ibrand%20Logo%20.png" alt="iBrand Africa">
+      <a href="https://www.ibrandafrica.com">www.ibrandafrica.com</a>
+    </section>
+  </main>
+  <script src="validation.js" defer></script>
+</body>
+</html>
